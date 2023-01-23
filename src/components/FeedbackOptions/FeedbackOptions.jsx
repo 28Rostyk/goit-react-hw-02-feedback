@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
 
-const FeedbackOptions = ({ options, onLeaveFeedback, onChangeColor }) => {
+const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   const elements = options.map(name => (
     <button
       key={name}
