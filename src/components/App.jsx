@@ -58,7 +58,7 @@ class App extends Component {
             />
           </Section>
         ) : (
-          total === 0 && <Notification message="There is no feedback" />
+          <Notification message="There is no feedback" />
         )}
       </>
     );
